@@ -1,0 +1,97 @@
+.login-container{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    padding: 10px;
+}
+.login-box{
+    margin-top: 20px;
+    font-weight: bold;
+
+    
+}
+.signin-label{
+ font-size: 15px;
+}
+.email-section{
+    margin-top: 20px;
+    font-size: 16px;
+    margin: 10px 0;
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 8px;
+    border: none;
+}
+.password-section{
+    margin-top: 20px;
+    font-size: 16px;
+    margin: 10px 0;
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 8px;
+    border: none;
+}
+ .input-group {
+    font-size: 15px;
+    margin: 10px 0;
+    width: 100%;   
+} 
+    
+.input-group1 {
+    margin-top: 20px;
+    font-size: 16px;
+    margin: 10px 0;
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 8px;
+    border: none;
+
+} 
+
+
+.button-section3{
+    display:flex ;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.social-login{
+    gap: 10;
+    
+}
+.google-btn{
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+.apple-btn{
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+.signup-link{
+    font-size: 15px;
+    justify-content: center;
+}
+.login-btn{
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+    background-color: #307a59; /* Green color for Continue */
+    color: white;
+}

@@ -1,0 +1,81 @@
+.container-third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.logo-section1{
+    margin-top: 20px;
+}
+
+.logo1{
+    width: 60px;
+    height: auto;
+
+}
+
+.image-section1{
+    position: relative;
+}
+
+.food-image1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px;
+}
+
+.text-section1 h2{
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-section1 p{
+    font-size: 14px;
+    color: #777;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.activity-dot{
+    width: 10px;
+    height: 10px;
+    background-color: #307a29 ;
+    border-radius: 50%;
+}
+
+.button-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.get-start, .sign-in1{
+    width: 80%;
+    padding: 15px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+
+}
+
+
+
+  .sign-in1{
+    background-color: #f0f0f0; /* Light color for Sign In */
+    color: #333;
+  }

@@ -1,0 +1,36 @@
+/* Apply styles only for mobile screens */
+@media (max-width: 768px) {
+    .container {
+      background-color: #307a59;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column; /* Stack image and button vertically */
+      justify-content: center; /* Centers the image and button horizontally */
+      align-items: center;     /* Centers the image and button vertically */
+    }
+  
+    .container img {
+      width: 70%;  /* Adjust the image size for mobile view */
+      height: auto; /* Maintain the aspect ratio */
+      margin-bottom: 20px; /* Adds space below the image */
+    }
+  
+    /* Style for the button */
+    .container button {
+      padding: 10px 20px;
+      font-size: 16px;
+      
+      background-color: #fff;
+      color: #307a59;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  
+    .container button:hover {
+      background-color: #e0e0e0;
+    }
+  }
+  

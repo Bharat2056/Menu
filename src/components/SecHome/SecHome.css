@@ -1,0 +1,92 @@
+/* General container for the page */
+.mobile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    background-color: #f7f7f7; /* Light background */
+    padding: 20px;
+  }
+  
+  /* Logo section */
+  .logo-section {
+    margin-top: 20px;
+  }
+  
+  .logo {
+    width: 60px; /* Adjust based on your logo size */
+    height: auto;
+  }
+  
+  /* Main food image section */
+  .image-section {
+    position: relative;
+  }
+  
+  .food-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Text section */
+  .text-section {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .text-section h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .text-section p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Pagination indicator */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .active-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #307a59; /* Green active dot */
+    border-radius: 50%;
+  }
+  
+  /* Buttons section */
+  .buttons-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .continue-btn, .signin-btn {
+    width: 80%;
+    padding: 15px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  
+  .continue-btn {
+    background-color: #307a59; /* Green color for Continue */
+    color: white;
+  }
+  
+  .signin-btn {
+    background-color: #f0f0f0; /* Light color for Sign In */
+    color: #333;
+  }
+  
